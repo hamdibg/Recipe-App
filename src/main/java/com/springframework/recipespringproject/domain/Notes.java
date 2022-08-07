@@ -3,6 +3,7 @@ package com.springframework.recipespringproject.domain;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "notes")
 public class Notes {
 
     @Id
